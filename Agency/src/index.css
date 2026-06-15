@@ -2,10 +2,14 @@ body{
   margin: 0;
   margin-left: 40px;
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.86) , rgba(0, 0, 0, 0.992) );
-  background-repeat: no-repeat;
+  background-image: url('/public/BG.png');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
 }
+
+
 .heading{
   margin: 0px;
   font-weight: 50 ;
