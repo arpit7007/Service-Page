@@ -4,14 +4,9 @@ function Navbar(){
     return(
         
         <nav className="navbar">
-            <div className="logo">
-                <h1>CURVATURE</h1>
-                <div className="studio-wrapper">
-                    <span className="line"></span>
-                    <span className="studio">STUDIO</span>
-                    <span className="line"></span>
-                </div>
-            </div>
+            
+            <img src="./images/word_art.png" alt="Curvature Studio" className="logo"/>
+            
             <div className="buttonwrapper">
                 <button className="firstthreebutton">WORK</button>
                 <button className="firstthreebutton">SERVICES</button>
