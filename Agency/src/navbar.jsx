@@ -5,7 +5,7 @@ function Navbar(){
         
         <nav className="navbar">
             
-            <img src="./images/word_art.png" alt="Curvature Studio" className="logo"/>
+            <img src="/public/word_art.png" alt="Curvature Studio" className="logo"/>
             
             <div className="buttonwrapper">
                 <button className="firstthreebutton">WORK</button>
