@@ -164,8 +164,13 @@ body{
 
   #paragraph {
     width: 100%;
-    max-width: 100%;
-    font-size: 0.65em;
+    max-width: 55%;
+    font-size: 0.4em;
+  }
+  .heading{
+    font-size: 1.5em;
+    max-width: 70%;
+    
   }
 
   .workbutton {
