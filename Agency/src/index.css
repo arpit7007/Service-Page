@@ -108,3 +108,68 @@ body{
   border-radius: 3px;
   margin-top: 30px;
 }
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .navbar {
+    padding: 30px 20px 30px 0px;
+  }
+
+  .buttonwrapper {
+    gap: 30px;
+  }
+
+  .box {
+    padding-top: 40px;
+    font-size: 1.6em;
+  }
+
+  #paragraph {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 580px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 25px 0px;
+  }
+
+  .buttonwrapper {
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .logo {
+    width: 140px;
+  }
+
+  .box {
+    font-size: 1.4em;
+    padding-top: 30px;
+  }
+
+  .box br, #paragraph br {
+    display: none;
+  }
+
+  #paragraph {
+    width: 100%;
+    max-width: 100%;
+    font-size: 0.65em;
+  }
+
+  .workbutton {
+    margin-top: 25px;
+    padding: 10px 25px;
+  }
+}
