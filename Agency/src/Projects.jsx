@@ -53,12 +53,10 @@ function Projects() {
     <section id="projects" className="projects-section">
       <div className="projects-header-container">
         <div className="projects-header">
-          <div className="projects-header-line"></div>
           <span className="projects-header-title">
             <span className="our-text">OUR </span>
             <span className="work-text">WORK</span>
           </span>
-          <div className="projects-header-line"></div>
         </div>
         <div className="projects-title-row">
           <h2 className="projects-section-title">

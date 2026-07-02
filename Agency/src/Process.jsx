@@ -28,7 +28,6 @@ function Process() {
     <section id="process" className="process-section">
       <div className="process-header">
         <span className="process-header-title">OUR PROCESS</span>
-        <div className="process-header-line"></div>
       </div>
       
       <div className="process-timeline-container">
