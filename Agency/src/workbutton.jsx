@@ -9,8 +9,8 @@ function Workbutton(){
     };
 
     return(
-        <button className="workbutton" onClick={() => handleScroll("process")}>VIEW OUR WORK</button>
+        <button className="workbutton" onClick={() => handleScroll("projects")}>VIEW OUR WORK</button>
     )
 }
 
-export default Workbutton
+export default Workbutton;

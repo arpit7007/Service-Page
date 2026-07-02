@@ -33,6 +33,7 @@ function About() {
           }}>
             MORE ABOUT US <span className="arrow">→</span>
           </a>
+
         </div>
 
       </div>

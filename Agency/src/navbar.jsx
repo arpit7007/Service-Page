@@ -19,8 +19,9 @@ function Navbar(){
             />
             
             <div className="buttonwrapper">
-                <button className="firstthreebutton" onClick={() => handleScroll("home")}>WORK</button>
-                <button className="firstthreebutton" onClick={() => handleScroll("process")}>SERVICES</button>
+                <button className="firstthreebutton" onClick={() => handleScroll("projects")}>WORK</button>
+                <button className="firstthreebutton" onClick={() => handleScroll("process")}>PROCESS</button>
+                <button className="firstthreebutton" onClick={() => handleScroll("services")}>SERVICES</button>
                 <button className="firstthreebutton" onClick={() => handleScroll("about")}>ABOUT</button>
                 <button className="firstthreebutton" id="contactbutton" onClick={() => handleScroll("contact")}>CONTACT</button>
             </div>

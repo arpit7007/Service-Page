@@ -32,7 +32,7 @@ function Contact() {
           <div className="footer-link-group">
             <h4 className="footer-group-title">NAVIGATION</h4>
             <ul>
-              <li><a href="#home" onClick={(e) => handleScroll("home", e)}>Work</a></li>
+              <li><a href="#projects" onClick={(e) => handleScroll("projects", e)}>Work</a></li>
               <li><a href="#process" onClick={(e) => handleScroll("process", e)}>Services</a></li>
               <li><a href="#about" onClick={(e) => handleScroll("about", e)}>About</a></li>
               <li><a href="#contact" onClick={(e) => handleScroll("contact", e)}>Contact</a></li>
